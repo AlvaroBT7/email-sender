@@ -15,7 +15,7 @@ const sendEmail = async () => {
     .sendMail({
       from: "barreroalvaro2007@gmail.com",
       to: "barreroalvaro2007@gmail.com",
-      subject: "Hola mamita",
+      subject: "Hello world",
       html: "<h1>Hello world</h1>",
     })
     .then(() => {
